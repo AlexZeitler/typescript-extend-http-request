@@ -16,7 +16,7 @@
     "build": "tsc",
     "prerelease": "yarn build",
     "release": "standard-version",
-    "test": "mocha -r ts-node/register test/**/*.ts",
+    "test": "ts-mocha -p tsconfig.json test/**/*.ts",
     "lint-ts": "eslint --ext .ts ."
   },
   "repository": {
@@ -49,6 +49,7 @@
     "should": "^13.2.3",
     "standard-version": "7.1.0",
     "ts-jest": "^25.1.0",
+    "ts-mocha": "^7.0.0",
     "ts-node": "^8.6.2",
     "typescript": "^3.8.3"
   },
