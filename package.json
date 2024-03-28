@@ -72,7 +72,7 @@
     "collectCoverage": true
   },
   "dependencies": {
-    "express": "^4.17.3",
+    "express": "^4.19.2",
     "http-problem-details": "^0.1.4"
   }
 }
